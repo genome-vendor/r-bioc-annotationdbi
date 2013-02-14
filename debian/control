@@ -1,14 +1,14 @@
-Source: r-cran-annotationdbi
+Source: r-bioc-annotationdbi
 Section: gnu-r
 Priority: optional
 Maintainer: The Genome Institute <gmt@genome.wustl.edu>
-Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-biocgenerics (>= 0.1.13), r-cran-biobase (>= 1.17.0), r-cran-dbi, r-cran-rsqlite, r-cran-iranges
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-bioc-biocgenerics (>= 0.1.13), r-bioc-biobase (>= 1.17.0), r-cran-dbi, r-cran-rsqlite, r-bioc-iranges
 Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/AnnotationDbi.html
 
-Package: r-cran-annotationdbi
+Package: r-bioc-annotationdbi
 Architecture: all
 Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
 Description: Provides user interface and database connection code for annotation data packages using SQLite data storage.
 License: Artistic2.0
-Depends: r-base-core, r-cran-biocgenerics (>= 0.1.13), r-cran-biobase (>= 1.17.0), r-cran-dbi, r-cran-rsqlite, r-cran-iranges
+Depends: r-base-core, r-bioc-biocgenerics (>= 0.1.13), r-bioc-biobase (>= 1.17.0), r-cran-dbi, r-cran-rsqlite, r-bioc-iranges
 
